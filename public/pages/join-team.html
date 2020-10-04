@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lce</title>
+    <link rel="stylesheet" href="../css/preload/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body onload="myFunction()" >
+  <div class="preload">
+    <img class="locomotive" src="../img/1.png" alt="locomotive">        
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <h3 class="text-muted">Veuillez patienter ...</h3>        
+</div>
+    
+  <section class="animate-bottom" id="particles-js" style="padding: 0;height:0px">
+
+          <!-- navbar -->
+          <div class="container-fluid  header-bar " >
+            <div  class="container">
+                <nav class="navbar navbar-expand-lg navbar-light" id="nav" >
+                    <a class="navbar-brand">
+                        <img src="../img/logo.png" width="70%" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Nos Solutions
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">IT</a>
+                              <a class="dropdown-item" href="#">Télécom</a>
+                              <a class="dropdown-item" href="#">Logistique</a>
+                              <a class="dropdown-item" href="#">BTP</a>
+                              <a class="dropdown-item" href="#">Formations</a>
+
+                              <!--<div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>-->
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link text" href="#">Boutique</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              A propos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Qui sommes-nous ?</a>
+                              <a class="dropdown-item" href="#">Partenaires</a>
+                              <a class="dropdown-item" href="#">Carrières</a>
+                              <a class="dropdown-item" href="#">Galerie</a>
+                              <!--<div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>-->
+                          </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" style="border-radius:0;" type="submit" id="cbtn">Contactez-nous</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!-- end nav -->
+
+        
+
+        <!-- rejoindre partenariat -->
+
+        <div class="container-fluid ">
+            <div class="container" style="height: 700px;">
+                <div class="row" style="height: 700px;">
+                    <div class="col-md-7" style="background-image: url('../img/IMG_0952.JPG');background-size:cover">
+                        <h1 class="text-light lce-team-text">Intégrer notre team <br> d'expert</h1>
+                    </div>
+                    <div class="col-md-5" style="padding: 2rem;box-shadow:4px 4px 10px #aaa">
+                        <div>
+                            <h2 class="text-o">Inscrivez-vous pour avoir une opportunité</h2>
+                            <br><br>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Example select</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Développeur</option>
+                                  <option>Autre poste</option>
+                                  <!--<option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>-->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputname">Nom & Prénoms</label>
+                              <input type="text" class="form-control  " id="exampleInputName" placeholder="Entrez votre nom">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Numéro de téléphone</label>
+                                <input type="text" class="form-control  " id="exampleInputPhone" placeholder="Entrez notre numéro">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Curriculum Vitae</label>
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input  " id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                                      <label class="custom-file-label" for="inputGroupFile04">Choisir un fichier</label>
+                                    </div>                                    
+                                  </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Lettre De Motivation</label>
+                                <div class="input-group">                                    
+                                    <div class="custom-file">
+                                      <input type="file" class="custom-file-input  " id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                                      <label class="custom-file-label" for="inputGroupFile04">Choisir un fichier</label>
+                                    </div>                                   
+                                  </div>
+                            </div>
+                            <br><br>
+                            <button type="submit" id="btn-modif" class="btn btn-warning btn-lg btn-block btn-animate">Envoyez</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- end rejoindre parte -->
+
+      <br><br><br>
+      <br>
+      <br>
+      <br>
+
+      
+
+        <!-- footer -->
+        <footer >
+            <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212)">               
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h2>La Locomotive</h2>
+                            <span class="t">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim amet, porro in unde aspernatur
+                            </span>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4 style="">Clients & Partenaires</h4>
+                            <ul style="list-style: none;">
+                                <a href="" class="t"><li>Solutions Partners</li></a>
+                                <a href="" class="t"><li>Channel Partners</li></a>
+                                <a href="" class="t"><li>Service Partners</li></a>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Support</h4>
+                            <ul style="list-style: none;">
+                                <a href="" class="t"><li>B2B Support</li></a>
+                                <a href="" class="t"><li>B2C Support</li></a>
+                                <a href="" class="t"><li>B2E Support</li></a>
+                                <a href="" class="t"><li>Bulletin de sécurité</li></a>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Presses & Evènements</h4>
+                            <ul style="list-style: none;">
+                                <a href="" class="t"><li>News</li></a>
+                                <a href="" class="t"><li>Event</li></a>
+                                <a href="" class="t"><li>Nos réalisations</li></a>
+                                <a href="" class="t"><li>Photos galérie</li></a>
+                            </ul>
+                        </div>
+                        <!--<div class="col-sm-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Special title treatment</h5>
+                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>-->
+                        </div>
+                      </div>
+                </div>
+                <div class="card-footer text-dark text-center">
+                    © Copyright 2020 LCE-CI
+                </div>
+              </div>
+        </footer>
+
+</section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="../js/main.js"></script>
+      <script src="../js/particles.js"></script>
+     <script src="../js/app.js"></script>
+</body>
+</html>
